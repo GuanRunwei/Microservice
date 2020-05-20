@@ -17,7 +17,7 @@ headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,imag
                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36'
            }
 
-conn = pymssql.connect("119.23.221.142:1433", "sa", "Grw19980628", "AIStock")
+conn = pymssql.connect("0.0.0.0:1433", "sa", "Grw19980628", "AIStock")
 
 
 def datetrans(text):
